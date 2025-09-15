@@ -5,7 +5,7 @@ let floor;
 let jumpSwitch = false;
 let backgroundImg;
 let plataformas;
-let gravity = 900;
+let gravity = 300;
 let key;
 let key2;
 let uWin;
@@ -245,5 +245,6 @@ function update() {
        playerSprite.position.y = 600;
    }
 }
+
 
 
