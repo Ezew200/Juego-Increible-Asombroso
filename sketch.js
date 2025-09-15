@@ -211,7 +211,7 @@ function update() {
     }
 
     if (kb.pressing('w')&&jumpSwitch==true) {
-        playerSprite.velocity.y = -40;
+        playerSprite.velocity.y = -80;
         playerSprite.changeAni('jumping');
         jumpSwitch = false;
        
@@ -245,6 +245,7 @@ function update() {
        playerSprite.position.y = 600;
    }
 }
+
 
 
 
