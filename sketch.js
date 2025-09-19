@@ -67,7 +67,7 @@ function setup() {
     while (plataformas.length < 3) {
         let plataforma = new plataformas.Sprite();
         plataforma.x = plataformas.length * 370;
-        plataforma.y = plataformas.length * 100+150;
+        plataforma.y = plataformas.length * height/6+150;
         plataforma.addAni('plataforma','assets/plataforma.webp');
         plataforma.scale = 0.7;
         plataforma.debug = false;
@@ -245,6 +245,7 @@ function update() {
        playerSprite.position.y = 600;
    }
 }
+
 
 
 
